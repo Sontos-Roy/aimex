@@ -1,0 +1,184 @@
+@font-face {
+    font-family: rubik-black;
+    src: url(../fonts/allfonts/Rubik-Black.ttf);
+}
+@font-face {
+    font-family: rubik-bold;
+    src: url(../fonts/allfonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubik-exbold;
+    src: url(../fonts/allfonts/Rubik-ExtraBold.ttf);
+}
+@font-face {
+    font-family: rubik-light;
+    src: url(../fonts/allfonts/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubik-medium;
+    src: url(../fonts/allfonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: rubik-regular;
+    src: url(../fonts/allfonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: rubik-semi;
+    src: url(../fonts/allfonts/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: akrobat-black;
+    src: url(../fonts/allfonts/Akrobat-Black.otf);
+}
+@font-face {
+    font-family: akrobat-bold;
+    src: url(../fonts/allfonts/Akrobat-Bold.otf);
+}
+@font-face {
+    font-family: akrobat-exbold;
+    src: url(../fonts/allfonts/Akrobat-ExtraBold.otf);
+}
+@font-face {
+    font-family: akrobat-light;
+    src: url(../fonts/allfonts/Akrobat-Light.otf);
+}
+@font-face {
+    font-family: akrobat-thin;
+    src: url(../fonts/allfonts/Akrobat-Thin.otf);
+}
+@font-face {
+    font-family: akrobat-regular;
+    src: url(../fonts/allfonts/Akrobat-Regular.otf);
+}
+@font-face {
+    font-family: akrobat-semi;
+    src: url(../fonts/allfonts/Akrobat-SemiBold.otf);
+}
+
+@font-face {
+    font-family: mont-black;
+    src: url(../fonts/allfonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: mont-bold;
+    src: url(../fonts/allfonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: mont-exbold;
+    src: url(../fonts/allfonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: mont-light;
+    src: url(../fonts/allfonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: mont-thin;
+    src: url(../fonts/allfonts/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: mont-regular;
+    src: url(../fonts/allfonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: mont-semi;
+    src: url(../fonts/allfonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: mont-medium;
+    src: url(../fonts/allfonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: mont-alt-bold;
+    src: url(../fonts/allfonts/MontserratAlternates-Bold.ttf);
+}
+@font-face {
+    font-family: mont-alt-regular;
+    src: url(../fonts/allfonts/MontserratAlternates-Regular.ttf);
+}
+@font-face {
+    font-family: mont-sub-bold;
+    src: url(../fonts/allfonts/MontserratSubrayada-Bold.ttf);
+}
+@font-face {
+    font-family: mont-sub-regular;
+    src: url(../fonts/allfonts/MontserratSubrayada-Regular.ttf);
+}
+
+@font-face {
+    font-family: neo-black;
+    src: url(../fonts/allfonts/NeoGramTrial-Black-BF63eaf5cbe5a7b.otf);
+}
+@font-face {
+    font-family: neo-bold;
+    src: url(../fonts/allfonts/NeoGramTrial-Bold-BF63eaf5cbb017d.otf);
+}
+@font-face {
+    font-family: neo-exbold;
+    src: url(../fonts/allfonts/NeoGramTrial-ExtraBold-BF63eaf5ccadf04.otf);
+}
+@font-face {
+    font-family: neo-light;
+    src: url(../fonts/allfonts/NeoGramTrial-Light-BF63eaf5cff07ce.otf);
+}
+@font-face {
+    font-family: neo-thin;
+    src: url(../fonts/allfonts/NeoGramTrial-UltraLight-BF63eaf5cfa3270.otf);
+}
+@font-face {
+    font-family: neo-regular;
+    src: url(../fonts/allfonts/NeoGramTrial-Regular-BF63eaf5cff12b2.otf);
+}
+@font-face {
+    font-family: neo-medium;
+    src: url(../fonts/allfonts/NeoGramTrial-Medium-BF63eaf5cdc966a.otf);
+}
+@font-face {
+    font-family: neo-black-condensed;
+    src: url(../fonts/allfonts/NeoGramTrial-BlackCondensed-BF63eaf5cf783b2.otf);
+}
+@font-face {
+    font-family: neo-heavy;
+    src: url(../fonts/allfonts/NeoGramTrial-Heavy-BF63eaf5cd88dac.otf);
+}
+
+@font-face {
+    font-family: pop-black;
+    src: url(../fonts/allfonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: pop-bold;
+    src: url(../fonts/allfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: pop-exbold;
+    src: url(../fonts/allfonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: pop-light;
+    src: url(../fonts/allfonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: pop-thin;
+    src: url(../fonts/allfonts/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: pop-regular;
+    src: url(../fonts/allfonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: pop-medium;
+    src: url(../fonts/allfonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: pop-semi;
+    src: url(../fonts/allfonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: helvetika;
+    src: url(../fonts/allfonts/A1012HelvetikaCmprs\ TYGRA\ Compress-Italic.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/allfonts/Gilroy-ExtraBold.ttf);
+}

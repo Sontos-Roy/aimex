@@ -1,0 +1,176 @@
+header{
+    position: relative;
+    z-index: 97;
+    background-color: #FFF;
+  }
+  .top_bar{
+    background-color: #2C3B91;
+    width: 100%;
+    color: white;
+  }
+  .top_bar .d-lg-flex{
+    width: 95%;
+    margin: 0 auto;
+    height: 40px;
+  }
+  .middle_nav{
+    padding: 10px 0;
+  }
+  .middle_nav .nav_search_box{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .middle_nav .nav_search_box .search_input{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 7px 15px;
+    height: 40px;
+    border: none;
+    background-color: #DFE2EA;
+  }
+  .middle_nav .nav_search_box .search_input::placeholder{
+    font-weight: 800;
+    font-family: var(--akrobat-bold);
+  }
+  
+.middle_nav .nav_search_box .btn{
+    padding: 7px 20px;
+    height: 40px;
+    background-color: #2C3B91;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    border: none;
+  }
+  .middle_nav .nav_search_box .search_input:focus, .middle_nav .nav_search_box .search_input:active, .middle_nav .nav_search_box .search_input:visited, .middle_nav .nav_search_box .search_input:focus-visible, .middle_nav .nav_search_box .search_input:focus-within, .middle_nav .nav_search_box .btn:focus, .middle_nav .nav_search_box .btn:active, .middle_nav .nav_search_box .btn:visited, .middle_nav .nav_search_box .btn:focus-visible, .middle_nav .nav_search_box .btn:focus-within{
+    border: none;
+    outline: none;
+  }
+  .middle_nav{
+    background-color: #FFF;
+  }
+  .middle_nav .navbar-brand img{
+    width: 70px;
+  }
+  .search_toggler_box{
+    transition: none;
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    top: 100%;
+    left: 0;
+  }
+  .bottom_nav{
+    background-color: #DFE2EA;
+    width: 100%;
+  }
+ .social a{
+    background-color: #2C3B91;
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
+ .social a:hover{
+    background-color: #58b1e3;
+  }
+  .bottom_nav .navbar-nav .nav-item .nav-link{
+    font-weight: 600; 
+    position: relative;
+    padding: 8px 12px;
+    border-bottom: 2px solid transparent;
+    font-family: var(--akrobat-regular);
+    letter-spacing: 1px;
+    font-size: 17px;
+  }
+  .bottom_nav .navbar-nav .nav-item .nav-link::after{
+    content: "|";
+    position: absolute;
+    right: 0;
+  }
+  .bottom_nav .navbar-nav .nav-item:last-child .nav-link::after{
+    content: "";
+  }
+  .bottom_nav .navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 0;
+    position: relative;
+  }
+  .bottom_nav .navbar-nav .nav-item .nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2C3B91;
+    transition: 0.5s;
+  }
+  .bottom_nav .navbar-nav .nav-item .nav-link.active{
+    color: #0e0e0e;
+    font-weight: 900;
+  }
+  .bottom_nav .navbar-nav .nav-item .nav-link.active::after, .bottom_nav .navbar-nav .nav-item .nav-link:hover:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 2px;
+    background: #2C3B91;
+  }
+  
+@media (max-width: 1200px) and (min-width: 992px){
+  .bottom_nav .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+  }
+}
+.sidebar{
+  position: fixed;
+  left: -320px;
+  top: 0;
+  width: 320px;
+  padding: 10px;
+  background: white;
+  min-height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.sidebar.active{
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.sidebar .social{
+  margin-top: 10px;
+}
+.overlay_sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #2c3b916b;
+  display: none;
+  transition: 1s;
+}
+.sidebar_dismiss{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sidebar .navbar-nav .nav-item .nav-link{
+  border-bottom: 2px solid transparent;
+}
+.sidebar .navbar-nav .nav-item .nav-link.active{
+  border-bottom: 2px solid #2C3B91;
+}

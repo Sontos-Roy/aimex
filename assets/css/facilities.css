@@ -1,0 +1,99 @@
+.left_indicators{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    display: block;
+    margin: 0;
+    margin-left: 20px;
+    width: 15px;
+}
+.left_indicators.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+.banner_item{
+    background: white;
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.banner_item .facility_heading{
+    width: 250px;
+    text-align: center;
+}
+.banner_item .facility_heading_bottom{
+    width: 340px;
+    text-align: end;
+    margin: 0 auto;
+    
+}
+.banner_item .facility_heading_bottom .slider_line{
+    width: 500px;
+}
+.banner_item .facility_heading .heading{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 0.9;
+}
+.banner_item .facility_heading_bottom .heading{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.banner_item .facility_heading .line{
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+}
+.facility_heading_top{
+    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.fabric_section .bg_ground{
+    background-color: #2C3B91;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+.bg_green_box{
+    border: 15px solid #03A04A;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #03A04A;
+}
+.bg_green_box .row{
+    background-color: #03A04A;
+}
+
+.bg_green_box .col-lg_5{
+    height: 200px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+}
+.bg_green_box .col-lg_5 img{
+    height: 100%;
+}
+.bg_green_box .col-lg_5 .halvatika{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.production_section .productions .border_right{
+    border-right: 3px solid #3E71B8;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.production_section .productions .border_right:last-child{
+    border-right: none;
+}
+.production_section .productions .border_right .title{
+    color: #3E71B8;
+    text-align: center;
+}

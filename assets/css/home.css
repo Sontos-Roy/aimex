@@ -1,0 +1,188 @@
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.features{
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+
+.banner-text{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: -65px;
+}
+.banner-text .banner_text_item{
+    height: 280px;
+    position: relative;
+    padding: 0;
+}
+.banner-text .banner_text_item .content{
+    height: 220px;
+    bottom: 0;
+    background-color: #59B1E3;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+.banner-text .banner_text_item .content .inner_content{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.banner-text .text-1{
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.banner-text .text-4{
+    position: relative;
+    overflow: hidden;
+}
+.banner-text .shape{
+    position: absolute;
+    background-color: #2C3B91;
+    height: 500px;
+    width: 500px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.banner-text .text-3 .content{
+    background-color: #3E71B8;
+}
+.banner-text .text-4 .content{
+    background-color: #2C3B91;
+}
+.feature_banners .height-eq{
+    max-height: 450px;
+}
+.f_b_image-3{
+    right: 40%;
+    width: 25%;
+}
+.f_b_image-4{
+    right: 25%;
+    width: 50%;
+}
+@media (max-width: 775px) {
+    .feature_banners .height-eq{
+        max-height: 100%;
+    }
+    .sm-p{
+        padding-left: 5px;
+        padding-right: 0px;
+        margin: 0;
+    }
+    .sm-p .row{
+        margin: 0;
+    }
+}
+
+.banner_section .hero_banner{
+    background-color: #03A04A;
+    min-height: 400px;
+    /* background-image: url(../image/image5.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.banner_section .hero_banner .title, .service_section .title{
+    font-size: 3.5rem;
+}
+.service_section .title span{
+    color: #2C3B91;
+}
+.banner_section .hero_banner .counters .counter{
+    background: #2c3b91b0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.service_section .services .service{
+    background: var(--muted);
+    padding: 10px;
+    margin-top: 50px;
+}
+.service_section .services .service .icon{
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    background: #2C3B91;
+    color: white;
+    border-radius: 50%;
+}
+.service_section .services .service p.text-justify{
+    min-height: 150px;
+}
+.email_section{
+    background: #03A04A;
+    padding: 20px 0;
+}
+.email_section .get_email_form{
+    position: relative;
+}
+.email_section .get_email_form input{
+    height: 60px;
+}
+.email_section .get_email_form button{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.processes{
+    position: relative;
+    margin-top: 30px;
+}
+.processes .process{
+    position: inherit;
+    text-align: center;
+}
+.processes .process_line{
+    height: 3px;
+    background: rgb(209, 209, 209);
+    width: 80%;
+    margin: 0 auto;
+    top: 60px;
+    position: absolute;
+    left: 10%;
+}
+.processes .process .process_icon_box{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: grid;
+    position: relative;
+    place-content: center;
+    border: 3px solid rgb(209, 209, 209);
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.processes .process .process_icon_box img{
+    height: 50px;
+    max-width: 100%;
+}
+.processes .process .process_icon_box .order{
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: #2C3B91;
+    color: white;
+    margin: 0 auto;
+    right: calc(50% - 15px);
+}
