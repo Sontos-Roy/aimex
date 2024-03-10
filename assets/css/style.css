@@ -18,7 +18,7 @@
     --blue: #0c497d;
     --primary: #2C3B91;
     --secondary: #03A04A;
-    --muted: #F2F2F2;
+    --muted: #E4E6EA;
     --yellow: #ffd08a;
     --orange: #ff9900;
 
@@ -571,7 +571,7 @@ body{
     font-size: 20px;
     margin-top: 10px;
 }
-.products .product .image img{
+.products.round .product .image img{
     border-radius: 0 25% 0 0;
 }
 .products .product:hover .content{

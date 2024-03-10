@@ -1,0 +1,21 @@
+.arbi_section .card img{
+    aspect-ratio: 1/1;
+}
+.arbi_section .card::before{
+    position: relative;
+}
+.arbi_section .card::before{
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background: #2C3B91;
+}
+.arbi_section div:nth-child(2) .card::before{
+    background: #3E71B8;
+}
+.arbi_section div:nth-child(3) .card::before{
+    background: #59B1E3;
+}

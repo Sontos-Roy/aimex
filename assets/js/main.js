@@ -117,8 +117,8 @@ function AllSliders(){
   
 
   $(document).ready(function(){
-    AllSliders();
     toggle();
+    AllSliders();
     $('.story-datepicker').jqueryDatePicker();
     $('.counter2').counterUp({
         delay: 10,
