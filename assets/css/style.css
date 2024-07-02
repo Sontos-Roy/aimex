@@ -19,6 +19,7 @@
     --primary: #2C3B91;
     --secondary: #03A04A;
     --muted: #E4E6EA;
+    --pink: #FACBCC;
     --yellow: #ffd08a;
     --orange: #ff9900;
 
@@ -74,6 +75,7 @@
     
     --helvetika: helvetika;
     --gilroy: gilroy;
+    --bakbak: bakbak;
 
     --shadow-primary: 0px 4px 10px rgba(37, 47, 63, 0.1);
 }
@@ -124,6 +126,9 @@ a{
 }
 .bg-white{
     background-color: white;
+}
+.bg-pink{
+    background-color: var(--pink);
 }
 .font-20{
     font-size: var(--font-20);
@@ -204,6 +209,9 @@ a{
 
 .akrobat-black{
     font-family: var(--akrobat-black);
+}
+.bakbak{
+    font-family: var(--bakbak);
 }
 .akrobat-bold{
     font-family: var(--akrobat-bold);
