@@ -85,14 +85,7 @@
     width: 100%;
     text-align: center;
 }
-.production_section .productions .border_right{
-    border-right: 3px solid #3E71B8;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-}
-.production_section .productions .border_right:last-child{
-    border-right: none;
-}
+
 .production_section .productions .border_right .title{
     color: #3E71B8;
     text-align: center;

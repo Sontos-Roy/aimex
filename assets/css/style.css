@@ -19,9 +19,10 @@
     --primary: #2C3B91;
     --secondary: #03A04A;
     --muted: #E4E6EA;
-    --pink: #FACBCC;
+    --pink: #E2B9A6;
     --yellow: #ffd08a;
     --orange: #ff9900;
+    --gray: gray;
 
     /* fonts  */
     --rubik-black: rubik-black;
@@ -210,7 +211,7 @@ a{
 .akrobat-black{
     font-family: var(--akrobat-black);
 }
-.bakbak{
+ .bakbak{
     font-family: var(--bakbak);
 }
 .akrobat-bold{

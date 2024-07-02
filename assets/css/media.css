@@ -176,6 +176,12 @@
         .bg_green_box{
           border: 10px solid #03A04A;
         }
+        .text-sm-justify{
+          text-align: justify;
+        }
+        .leather_slider{
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
     }
     /* Large devices (desktops, 992px and up)*/
     @media (min-width: 992px) {
@@ -200,6 +206,10 @@
       }
       .plant_section .plant_standard .border_right{
         border-right: 3px solid var(--primary);
+        margin-bottom: 20px;
+      }
+      .plant_section .plant_standard2 .border_right{
+        border-right: 3px solid var(--gray);
         margin-bottom: 20px;
       }
       .plant_section .plant_standard .border_right:nth-child(3), .plant_section .plant_standard .border_right:nth-child(5){
